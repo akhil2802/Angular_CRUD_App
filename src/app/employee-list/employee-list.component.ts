@@ -12,7 +12,7 @@ export class EmployeeListComponent implements OnInit {
   employees: Employee[];
 
   constructor(private employeeService: EmployeeService) {
-
+    
    }
 
   ngOnInit(): void {
